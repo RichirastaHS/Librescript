@@ -18,10 +18,14 @@ node -v
 npm -v
 ```
 
-> [!NOTE] Cada vez que edites grammar.ne, debes compilarla así:
-> npx nearleyc src/grammar.ne -o src/grammar.js
-
 ## 🚀 Cómo ejecutar un archivo de Librescript
-> [!NOTE]
-> node src/index.js ejemplo.ls
+
+ Cada vez que edites grammar.ne, debes compilarla así:
+```bash
+npx nearleyc src/grammar.ne -o src/grammar.js
+```
+Para ejecutar el archivo 
+```bash
+node librescript.js
+```
 
